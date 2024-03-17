@@ -51,4 +51,12 @@ nav ul{
     width: 40px;
 }
 
+#Aboutpage{
+    grid-template-areas: 'main'
+                         'left'
+                         'right';
+    grid-template-rows: 0.3fr 2fr 1.7fr;
+    min-height: 100vh;
+}
+
 }
