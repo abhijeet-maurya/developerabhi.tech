@@ -33,7 +33,7 @@ nav ul{
     /* height: 55vw;
     width:25vw ; */
     height:clamp(300px,55vw,320px);
-    width:clamp(120px,25vw,130px);
+    width:clamp(140px,34vw,160px);
     background-color: #fafafa;
     position:absolute;
     top: 69px;
@@ -55,7 +55,7 @@ nav ul{
     grid-template-areas: 'main'
                          'left'
                          'right';
-    grid-template-rows: 0.3fr 2fr 1.7fr;
+    grid-template-rows: 0.3fr 1.3fr 1.5fr;
     min-height: 100vh;
 }
 
